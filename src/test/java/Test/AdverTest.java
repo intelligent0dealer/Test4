@@ -4,15 +4,12 @@ import config.SeleniumConfig;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import ru.Avito.pages.ConfirmPage;
-import ru.Avito.pages.HeaderPanel;
 import ru.Avito.pages.InfoForm;
 import ru.Avito.pages.LoginForm;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+
+
 public class AdverTest {
     private SeleniumConfig config;
     private WebDriver driver;

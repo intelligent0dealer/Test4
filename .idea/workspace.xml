@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0b8930-8355-4a43-a2d9-d8a7cec683a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/ConfirmPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/SeleniumConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/SeleniumConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/AddItemPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/CategoryField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/CategoryField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/HeaderPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/HeaderPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/InfoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/InfoForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/LoginForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AdverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/AdverTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,22 +169,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585557151759" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586205440275">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586207449558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586205440275" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586205440274">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586207449558" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586207449558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586205440274" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586205440274">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586207449558" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586207449558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586205440274" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586205440274">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586207449558" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586207449558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586205440274" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586207449558" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586121461900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
