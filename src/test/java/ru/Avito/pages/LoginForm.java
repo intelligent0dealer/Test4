@@ -5,20 +5,34 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginForm {
-    private final WebElement loginInput;
-    private final WebElement passwordInput;
-    private final WebElement submitButton;
+    private  WebDriver driver;
+    private  By loginField = By.name("login");
+    private  By passField = By.name("password");
+    private  By submitButton = By.name("submit");
 
-    public LoginForm(WebDriver driver, By selector) {
-        var formElement = driver.findElement(selector);
-        loginInput = formElement.findElement(By.cssSelector("[data-marker='login-form/login']"));
-        passwordInput = formElement.findElement(By.cssSelector("[data-marker='login-form/password']"));
-        submitButton = formElement.findElement(By.cssSelector("[data-marker='login-form/submit']"));
+    public LoginForm(WebDriver driver) {
+        this.driver = driver;
     }
 
-    public void login(String login, String password) {
-        this.loginInput.sendKeys(login);
-        this.passwordInput.sendKeys(password);
-        this.submitButton.click();
+    public void inputAuth (String login, String password) {
+        input(loginField, login);
+        input(passField, password);
     }
+
+    private void input(By control, String data) {
+        driver.findElement(control).sendKeys(data);
+    }
+
+    public void submit() {
+        driver.findElement(submitButton).click();
+    }
+
+    public boolean atPage(String data) {
+        if (driver.getTitle().equals(data)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }

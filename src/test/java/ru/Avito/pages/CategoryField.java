@@ -6,12 +6,11 @@ import org.openqa.selenium.WebElement;
 
 public class CategoryField {
     private final WebDriver driver;
-    private final WebElement element;
 
-    public CategoryField(WebDriver driver, By selector) {
+    public CategoryField(WebDriver driver) {
         this.driver = driver;
-        this.element = driver.findElement(selector);
     }
+
     public void categoryButton() {
 
     }
