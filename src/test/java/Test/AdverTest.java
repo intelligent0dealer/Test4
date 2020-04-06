@@ -29,7 +29,7 @@ public class AdverTest {
     }
 
     @Test
-    public void createAdver() throws InterruptedException {
+    public void createAdver() {
         LoginForm loginForm = new LoginForm(driver);
         InfoForm infoForm = new InfoForm(driver);
         ConfirmPage confirmPage = new ConfirmPage(driver);

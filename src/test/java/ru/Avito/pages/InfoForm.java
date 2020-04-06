@@ -9,9 +9,10 @@ import static java.lang.Thread.*;
 public class InfoForm {
     private  WebDriver driver;
     private By nameField = By.id("title");
-    private By categoryButton = new By.ByXPath("/html/body/form/div[3]/div[2]/div/div/div/div[10]");
+    private By categoryButton = new By.ByXPath
+            ("//*[contains(@data-marker, 'category-wizard/button')][contains(text(),'Животные')]");
     private By submitCatButton= new By.ByXPath
-        ("/html/body/form/div[4]/div[2]/div[1]/div/div[2]/div[2]/div[2]/div/div/button[1]");
+        ( "//button/span[contains(text(), 'Товары для животных / Животные')]");
     private By descriptionField = By.id("description");
     private By priceField = By.id("Price");
     private By uploadButton = By.cssSelector("[data-marker='add']");
@@ -39,9 +40,8 @@ public class InfoForm {
     }
 
     public void uploadPhoto() {
-        click(uploadButton);
-        WebElement fileInput = driver.findElement(By.id("uploadFile")); // до конца так и не понял
-        fileInput.sendKeys("/path/to/file.jpg"); // как правильно написать загрузку файла
+        WebElement fileInput = driver.findElement(By.id("uploadFile"));
+        fileInput.sendKeys("/path/to/file.jpg");
     }
 
     public void continueClick() {
