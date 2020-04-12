@@ -3,7 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="ed0b8930-8355-4a43-a2d9-d8a7cec683a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AdverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/AdverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pseudo" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pseudo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/AdverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/AdverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCase" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestCase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/SeleniumConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/SeleniumConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/CategoryField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/ConfirmPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/Avito/pages/ConfirmPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/HeaderPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/Avito/pages/HeaderPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/InfoForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/Avito/pages/InfoForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/Avito/pages/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/Avito/pages/SearchForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/AdverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/AdverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/Avito/pages/AddItemPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/Avito/pages/CategoryField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/Avito/pages/ConfirmPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/Avito/pages/ConfirmPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/Avito/pages/InfoForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ru/Avito/pages/InfoForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/Avito/pages/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ru/Avito/pages/SearchForm.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +53,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Avito" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.AdverTest.createAdver">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Артём\IdeaProjects\AvitoTest\src\main\" />
+      <recent name="C:\Users\Артём\IdeaProjects\AvitoTest\src\main" />
+      <recent name="C:\Users\Артём\IdeaProjects\AvitoTest\src\test\Test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoginTest.correctLogin">
     <configuration name="AdverTest.createAdver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AvitoTest" />
       <extension name="coverage">
@@ -119,9 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest.correctLogin" />
         <item itemvalue="JUnit.AdverTest.createAdver" />
         <item itemvalue="JUnit.LoginTest.inCorrectLogin" />
-        <item itemvalue="JUnit.LoginTest.correctLogin" />
         <item itemvalue="JUnit.LoginTest.firstTest" />
         <item itemvalue="JUnit.LoginTest" />
       </list>
@@ -141,14 +167,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1585558902018">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1586716991278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585558902018" />
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586716991278" />
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586114702246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586114702246" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586521075512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586521075512" />
     <state x="722" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585594118666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -161,6 +191,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="657" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585561857613" />
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586520747289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1586520747289" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586106857316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,22 +203,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585557151759" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586207449558">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586535815165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586207449558" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586207449558">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586535815165" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1586535815165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586207449558" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586207449558">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586535815165" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1586535815165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586207449558" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586207449558">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586535815165" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1586535815165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586207449558" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586535815165" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586121461900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -205,10 +239,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586114446617" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586161883779">
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1586716243160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586161883779" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586716243160" />
     <state x="666" y="139" key="refactoring.ChangeSignatureDialog" timestamp="1586099411356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

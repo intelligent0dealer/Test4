@@ -5,10 +5,13 @@ import org.openqa.selenium.WebDriver;
 
 public class HeaderPanel {
     private final WebDriver driver;
+    private By avatar= By.cssSelector("header-services-menu-avatar-QlGRi");
 
+    public boolean avatarIsAvailable(){
+      return driver.findElements(avatar).size() == 0;
+    }
     public HeaderPanel(WebDriver driver) {
         this.driver = driver;
-
     }
 
     public LoginForm openLoginForm() {

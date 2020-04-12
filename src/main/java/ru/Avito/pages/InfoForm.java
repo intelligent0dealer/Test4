@@ -12,7 +12,7 @@ public class InfoForm {
     private By categoryButton = new By.ByXPath
             ("//*[contains(@data-marker, 'category-wizard/button')][contains(text(),'Животные')]");
     private By submitCatButton= new By.ByXPath
-        ( "//button/span[contains(text(), 'Товары для животных / Животные')]");
+        ( "//button[./span[contains(text(), 'Товары для животных / Животные')]]");
     private By descriptionField = By.id("description");
     private By priceField = By.id("Price");
     private By uploadButton = By.cssSelector("[data-marker='add']");
